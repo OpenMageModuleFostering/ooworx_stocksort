@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Ooworx_StockSort",
+    "type": "magento-module",
+    "license": "GPLv3",
+    "homepage": "",
+    "description": "Sort your product out of stock at the end of search, categories and everywhere in your store.",
+    "authors": [
+    {
+        "name": "Ooworx",
+        "email": "support@ooworx.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

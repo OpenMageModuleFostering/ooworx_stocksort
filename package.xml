@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Ooworx_StockSort</name>
+    <version>0.1.1</version>
+    <stability>stable</stability>
+    <license uri="https://www.gnu.org/licenses/gpl-3.0.en.html">GPLv3</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Sort your product out of stock at the end of search, categories and everywhere in your store.</summary>
+    <description>Sort your product out of stock at the end of search, categories and everywhere in your store.</description>
+    <notes>Check compatibility : 1.6, 1.7, 1.8</notes>
+    <authors><author><name>Ooworx</name><user>ooworx</user><email>support@ooworx.com</email></author></authors>
+    <date>2015-09-15</date>
+    <time>08:55:45</time>
+    <contents><target name="magecommunity"><dir name="Ooworx"><dir name="StockSort"><dir name="Model"><file name="Observer.php" hash="0caef4d871cf3d3b94451d59e7595a14"/></dir><dir name="etc"><file name="config.xml" hash="45e498aa3a0a4b51ce7fc75a55186e55"/><file name="system.xml" hash="9e7984fe3c829d7a4b7c00b6ee053e16"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Ooworx_StockSort.xml" hash="9726052585c5279ba743dc9315909165"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php><package><name>Magento_Core_Modules</name><channel>community</channel><min>1.6</min><max>1.9</max></package></required></dependencies>
+</package>
